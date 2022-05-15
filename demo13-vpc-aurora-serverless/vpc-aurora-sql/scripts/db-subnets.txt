@@ -1,0 +1,61 @@
+{
+    "DBSubnetGroups": [
+        {
+            "DBSubnetGroupName": "default",
+            "DBSubnetGroupDescription": "default",
+            "VpcId": "vpc-0b7f6213c09946c31",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetIdentifier": "subnet-010fd566ae4d7edc0",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1d"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-083bdd5f0bc0ce6da",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1b"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-06ea1583961641144",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1e"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-0adc445c720160ebe",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1f"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-0d5609c81a10ce091",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1c"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-0ec6455144cc312c5",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-1a"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                }
+            ],
+            "DBSubnetGroupArn": "arn:aws:rds:us-east-1:111111111111:subgrp:default"
+        }
+    ]
+}

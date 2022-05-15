@@ -1,0 +1,17 @@
+{
+  "name": "mail-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "invoke:local": "sls invoke local -f mailsender --path mocks/event.json",
+    "logs": "sls logs -f mailsender -t"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1125.0",
+    "mailcomposer": "^4.0.2"
+  }
+}

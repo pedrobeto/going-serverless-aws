@@ -1,0 +1,24 @@
+service: yumda2-example
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+package:
+  individually: true
+  exclude:
+    - ./**
+
+functions:
+  hello-world:
+    handler: hello-world/app.lambdaHandler
+    package:
+      include:
+        - hello-world/**
+    layers:
+      - {Ref: DependenciesLambdaLayer}
+
+# layers:
+#   Dependencies:
+    # package:
+    #   artifact: dependencies.zip

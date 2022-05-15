@@ -1,0 +1,38 @@
+{
+    "Records": [
+      {
+        "eventVersion": "2.1",
+        "eventSource": "aws:s3",
+        "awsRegion": "us-east-1",
+        "eventTime": "2022-04-12T22:50:11.651Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+          "principalId": "AWS:AIDARSALB477HFZFGVLCG"
+        },
+        "requestParameters": {
+          "sourceIPAddress": "187.0.184.216"
+        },
+        "responseElements": {
+          "x-amz-request-id": "MYPV61E8W6RBFXNT",
+          "x-amz-id-2": "Qzunu2lv/JQiIOdHS1br9+O8P0las8DH4oe57cOIuagOhrCIwci34Zx1HHP/OD+H3l91AOESQ88KtMms1uBfXZt8TRIPehUz"
+        },
+        "s3": {
+          "s3SchemaVersion": "1.0",
+          "configurationId": "70b4c615-5734-483e-b34b-2c208fba614a",
+          "bucket": {
+            "name": "arquivos-009-beto",
+            "ownerIdentity": {
+              "principalId": "A1FQWGIPFVZCFI"
+            },
+            "arn": "arn:aws:s3:::arquivos-009-beto"
+          },
+          "object": {
+            "key": "test.csv",
+            "size": 12,
+            "eTag": "85126549273e2f07d3dc63523aad207f",
+            "sequencer": "0062560223791B8E20"
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,256 @@
+{
+    "Records": [
+        {
+            "eventID": "01b7133bbbcb474f7d682b8d5525cc56",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354179,
+                "Keys": {
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "b7ac34c0-ad83-11ec-9f0b-270820857af7"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:09:37.548Z"
+                    },
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "b7ac34c0-ad83-11ec-9f0b-270820857af7"
+                    },
+                    "poder": {
+                        "S": "Velocidade"
+                    }
+                },
+                "SequenceNumber": "10058300000000057660071467",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        },
+        {
+            "eventID": "fe7efedcb3eeea4be0e6492f7fb190c2",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354319,
+                "Keys": {
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "0ba2cdf0-ad84-11ec-9d86-6bfb9658b028"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:11:58.415Z"
+                    },
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "0ba2cdf0-ad84-11ec-9d86-6bfb9658b028"
+                    },
+                    "poder": {
+                        "S": "Velocidade"
+                    }
+                },
+                "SequenceNumber": "10058400000000057660153837",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        },
+        {
+            "eventID": "8977bef777814d7586e9143f271ec11f",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354366,
+                "Keys": {
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "2753bb90-ad84-11ec-8e96-b51cd3a1a547"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:12:44.873Z"
+                    },
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "2753bb90-ad84-11ec-8e96-b51cd3a1a547"
+                    },
+                    "poder": {
+                        "S": "Velocidade"
+                    }
+                },
+                "SequenceNumber": "10058500000000057660182752",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        },
+        {
+            "eventID": "54c9177d2ff0d27a2baa2035bbeddf86",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354375,
+                "Keys": {
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "2d32e040-ad84-11ec-bf5a-81b7ceaf3aaf"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:12:54.724Z"
+                    },
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "2d32e040-ad84-11ec-bf5a-81b7ceaf3aaf"
+                    },
+                    "poder": {
+                        "S": "Velocidade"
+                    }
+                },
+                "SequenceNumber": "10058600000000057660188873",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        },
+        {
+            "eventID": "a435ef332e63b9ee3a45ed3f0c944382",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354613,
+                "Keys": {
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "bbac1cb0-ad84-11ec-bdc4-b7e4e9c95f57"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:16:53.755Z"
+                    },
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "bbac1cb0-ad84-11ec-bdc4-b7e4e9c95f57"
+                    },
+                    "poder": {
+                        "S": "Velocidade"
+                    }
+                },
+                "SequenceNumber": "10058700000000057660334644",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        },
+        {
+            "eventID": "77b96b467e5ca041d1c024c4fff8ec95",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354642,
+                "Keys": {
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "cca645e0-ad84-11ec-bdc4-b7e4e9c95f57"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:17:22.238Z"
+                    },
+                    "nome": {
+                        "S": "Flash"
+                    },
+                    "id": {
+                        "S": "cca645e0-ad84-11ec-bdc4-b7e4e9c95f57"
+                    },
+                    "poder": {
+                        "S": "Velocidade"
+                    }
+                },
+                "SequenceNumber": "10058800000000057660352296",
+                "SizeBytes": 142,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        },
+        {
+            "eventID": "481ba60d40fa041d0b612d6fe2a72a9b",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1648354695,
+                "Keys": {
+                    "nome": {
+                        "S": "Batman"
+                    },
+                    "id": {
+                        "S": "ec9615b0-ad84-11ec-bdc4-b7e4e9c95f57"
+                    }
+                },
+                "NewImage": {
+                    "createdAt": {
+                        "S": "2022-03-27T04:18:15.819Z"
+                    },
+                    "nome": {
+                        "S": "Batman"
+                    },
+                    "id": {
+                        "S": "ec9615b0-ad84-11ec-bdc4-b7e4e9c95f57"
+                    },
+                    "poder": {
+                        "S": "Gotico"
+                    }
+                },
+                "SequenceNumber": "10058900000000057660383737",
+                "SizeBytes": 140,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:111111111111:table/Heroes/stream/2022-03-24T23:38:03.730"
+        }
+    ]
+}

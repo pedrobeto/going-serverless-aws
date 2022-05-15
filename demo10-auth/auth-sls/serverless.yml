@@ -1,0 +1,45 @@
+
+service: auth-sls
+
+provider:
+  name: aws
+  region: 'us-east-1'
+  stage: 'dev'
+  runtime: nodejs14.x
+  environment:
+    JWT_KEY: abc123
+  httpApi:
+    cors: true
+    authorizers:
+      customAuthorizer:
+        type: request
+        functionName: authorizerFunc
+
+plugins:
+  - serverless-offline
+
+functions:
+  authorizerFunc:
+    handler: src/authorizer.handler
+
+  login:
+    handler: src/login.handler
+    events:
+      - httpApi:
+          path: /login
+          method: post
+
+  heroes-public:
+    handler: src/getHeroes.public
+    events:
+      - httpApi:
+          path: /public
+          method: get
+  
+  heroes-private:
+    handler: src/getHeroes.private
+    events:
+      - httpApi:
+          path: /private
+          method: get
+          authorizer: customAuthorizer

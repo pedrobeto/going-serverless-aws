@@ -1,0 +1,14 @@
+{
+  "name": "s3watcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "invoke:local": "sls invoke local -f s3watcher --path mocks/event.json",
+    "logs": "sls logs -f s3watcher -t"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1125.0",
+    "env-var": "^7.1.1"
+  }
+}

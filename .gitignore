@@ -1,0 +1,15 @@
+node_modules
+**/node_modules
+**/dependencies
+
+*.zip
+**/*.zip
+
+**/*.log
+**/logs/**
+yarn.lock
+yarn-error.log
+
+.env
+**/.env
+

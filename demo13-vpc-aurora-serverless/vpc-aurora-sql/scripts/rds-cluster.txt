@@ -1,0 +1,48 @@
+{
+    "DBCluster": {
+        "AllocatedStorage": 1,
+        "AvailabilityZones": [
+            "us-east-1c",
+            "us-east-1f",
+            "us-east-1b"
+        ],
+        "BackupRetentionPeriod": 1,
+        "DBClusterIdentifier": "serverlesscourse",
+        "DBClusterParameterGroup": "default.aurora5.6",
+        "DBSubnetGroup": "default",
+        "Status": "creating",
+        "Endpoint": "serverlesscourse.cluster-cwu1amplidoc.us-east-1.rds.amazonaws.com",
+        "ReaderEndpoint": "serverlesscourse.cluster-ro-cwu1amplidoc.us-east-1.rds.amazonaws.com",
+        "MultiAZ": false,
+        "Engine": "aurora",
+        "EngineVersion": "5.6.10a",
+        "Port": 3306,
+        "MasterUsername": "pedrobeto",
+        "PreferredBackupWindow": "05:10-05:40",
+        "PreferredMaintenanceWindow": "thu:03:16-thu:03:46",
+        "ReadReplicaIdentifiers": [],
+        "DBClusterMembers": [],
+        "VpcSecurityGroups": [
+            {
+                "VpcSecurityGroupId": "sg-0069d9e378dcd7745",
+                "Status": "active"
+            }
+        ],
+        "HostedZoneId": "Z2R2ITUGPM61AM",
+        "StorageEncrypted": true,
+        "KmsKeyId": "arn:aws:kms:us-east-1:111111111111:key/3cbf85dc-b689-49d6-acb1-55d1f05f3c06",
+        "DbClusterResourceId": "cluster-M5XBHDKNCGOSTWF27OCROETCXY",
+        "DBClusterArn": "arn:aws:rds:us-east-1:111111111111:cluster:serverlesscourse",
+        "AssociatedRoles": [],
+        "IAMDatabaseAuthenticationEnabled": false,
+        "ClusterCreateTime": "2022-04-25T00:46:52.806000+00:00",
+        "EngineMode": "serverless",
+        "DeletionProtection": false,
+        "HttpEndpointEnabled": false,
+        "CopyTagsToSnapshot": false,
+        "CrossAccountClone": false,
+        "DomainMemberships": [],
+        "TagList": [],
+        "AutoMinorVersionUpgrade": false
+    }
+}

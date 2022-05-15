@@ -1,0 +1,39 @@
+service: vpc-aurora-sql
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  environment:
+    MYSQL_HOST: ${env:MYSQL_HOST, "serverlesscourse.cluster-cwu1amplidoc.us-east-1.rds.amazonaws.com"} 
+    MYSQL_PORT: ${env:MYSQL_PORT, "3306"}
+    MYSQL_USER: ${env:MYSQL_USER, "pedrobeto"}
+    MYSQL_PASS: ${env:MYSQL_PASS, "abc12354"} 
+    MYSQL_DATABASE: ${env:MYSQL_DATABASE, "heroes"} 
+  vpc:
+    securityGroupIds:
+      - sg-0069d9e378dcd7745
+    subnetIds:
+      - subnet-010fd566ae4d7edc0
+      - subnet-083bdd5f0bc0ce6da
+      - subnet-06ea1583961641144
+      - subnet-0adc445c720160ebe
+      - subnet-0d5609c81a10ce091
+      - subnet-0ec6455144cc312c5
+
+
+plugins:
+  - serverless-offline
+
+package:
+  excludeDevDependencies: true
+
+functions:
+  hello:
+    handler: src/index.handler
+    events:
+      - http:
+          method: any
+          path: hello
+

@@ -1,0 +1,16 @@
+api keys:
+  beto@beto.com: j5o3QFKaoG9bRSOCns0Ai900CpJYrJfC5mU2a7eB
+  ana@ana.com: HjujBl1izP5eUZqpouHCQ4zM9XvvgvOQ2dLLBucH
+  teste: wRJCqtxaRP1IQxHUCyRjy7JsuTEZFw9S2bbEGD6v
+  mayPaidKey: 5NS9cO5auga6WXMubBY056TEYs5tbocS7VtpMV7D
+  zezinho@ze.com: tq1iZszv3e5kYQMBNR7QU3jjARBvSWCd3e6sNLbP
+endpoints:
+  GET - https://9hxxbj0fjj.execute-api.us-east-1.amazonaws.com/dev/hello
+  GET - https://9hxxbj0fjj.execute-api.us-east-1.amazonaws.com/dev/getUsage
+  GET - https://9hxxbj0fjj.execute-api.us-east-1.amazonaws.com/dev/addKey
+  GET - https://9hxxbj0fjj.execute-api.us-east-1.amazonaws.com/dev/getUsagePlans
+functions:
+  hello: api-management-dev-hello (14 MB)
+  getUsage: api-management-dev-getUsage (14 MB)
+  addKey: api-management-dev-addKey (14 MB)
+  getUsagePlans: api-management-dev-getUsagePlans (14 M
